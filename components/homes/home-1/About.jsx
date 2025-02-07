@@ -36,9 +36,11 @@ export default function About() {
               >
                 <div className="about-thumb-box about-thumb1">
                   <DotLottieReact
+                   style={{ width: '600px', height: '400px' }} 
                     src="/assets/img/1738901666846.lottie"
                     loop
                     autoplay
+                   
                   />
                 </div>
               </div>
@@ -177,6 +179,7 @@ deliver customized solutions to keep your business protected.
                     src="/assets/img/1738902153316.lottie"
                     loop
                     autoplay
+                    style={{ width: '600px', height: '400px' }} 
                   />
                 </div>
                 
