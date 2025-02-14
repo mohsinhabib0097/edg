@@ -1,14 +1,14 @@
 export const counterBoxes = [
   {
     icon: "/assets/img/icon/counterIcon1_1.png",
-    number: 500,
-    label: "Secured Businesses",
+    number: 99,
+    label: "Malware Detection Rate",
     delay: ".3s",
   },
   {
     icon: "/assets/img/icon/counterIcon1_2.png",
     number: 1000,
-    label: "Successful Projects",
+    label: "Security Checks Per Day",
     delay: ".6s",
   },
   {
