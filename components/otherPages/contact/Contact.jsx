@@ -151,8 +151,7 @@ export default function Contact() {
                     </p>
                   </div>
                   <form
-                    ref={form}
-                    onSubmit={sandMail}
+                     netlify
                     className="contact-form-items"
                   >
                     <div className="row g-4">
@@ -204,8 +203,8 @@ export default function Contact() {
                       <div
                         className="col-lg-7 wow fadeInUp"
                         data-wow-delay=".9s"
-                      >
-                        <button type="submit" className="gt-btn">
+                      > 
+                        <button typeof="submit" type="submit" className="gt-btn">
                           Send Message
                           <i className="fa-solid fa-arrow-right-long ms-1" />
                         </button>
