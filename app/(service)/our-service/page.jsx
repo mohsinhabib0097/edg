@@ -12,8 +12,8 @@ import Pricing from "@/components/homes/home-3/Pricing";
 import Services2 from "@/components/otherPages/service/Services2";
 import Link from "next/link";
 export const metadata = {
-  title: "Services || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Services || Expert Cybersecurity & Data Protection",
+  description: "EDGTEK provides expert cybersecurity solutions, including network protection, encrypted backups, and advanced security measures to safeguard your business from cyber threats.",
 };
 export default function Page() {
   return (
