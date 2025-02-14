@@ -7,10 +7,12 @@ import { useState } from "react";
 export default function About() {
   const [isOpen, setOpen] = useState(false);
   return (
+
     <>
+      
       <section className="about-area">
         <div
-          className="about-wrap style2 space-top pb-233 fix fix position-reltive"
+          className="about-wrap style2 space-top pb-233 fix fix position-reltive aboutbottomgap"
           data-bg-src=""
           style={{ backgroundImage: "url(/assets/img/bg/aboutBg2_1.png)" }}
         >
@@ -30,7 +32,7 @@ export default function About() {
               height="275"
             />
           </div>
-          <div className="container">
+          <div id="proactive" className="container containerwrap">
             <div className="about-wrapper style2">
               <div
                 className="about-thumb-box wow fadeInUp"
@@ -39,16 +41,10 @@ export default function About() {
                 <div className="about-thumb-box about-thumb1">
                   <Image
                     alt="thumb"
-                    src="/assets/img/about/aboutThumb2_1.png"
+                    src="/assets/img/service/998f31dd9d.jpeg"
                     width="682"
                     height="561"
                   />
-                  <a
-                    onClick={() => setOpen(true)}
-                    className="play-btn style4 popup-video"
-                  >
-                    <i className="fa-sharp fa-solid fa-play" />
-                  </a>
                 </div>
                 <div className="about-thumb-box line jump" />
               </div>
@@ -58,31 +54,14 @@ export default function About() {
               >
                 <div className="title-area">
                   <h5 className="subtitle text-start">
-                    <span>
-                      <Image
-                        alt="icon"
-                        src="/assets/img/icon/titleIcon.png"
-                        width="28"
-                        height="12"
-                      />
-                    </span>{' '}
-                    About us Techbe{' '}
-                    <span>
-                      <Image
-                        alt="icon"
-                        src="/assets/img/icon/titleIcon.png"
-                        width="28"
-                        height="12"
-                      />
-                    </span>
                   </h5>
                   <h2 className="title text-start">
-                    We Can Clients with the About Solution
+                  Proactive Cyber Defense
                   </h2>
                   <p className="text">
-                    It is a long established fact that a reader will be
-                    distracted the readable content of a page when looking at
-                    layout the point.
+                  The cyber threat landscape is constantly changing. EDGTEK provides cutting-edge security
+solutions, including: 
+
                   </p>
                 </div>
                 <div className="fancy-box-wrapper">
@@ -90,86 +69,567 @@ export default function About() {
                     <div className="checklist mt-0 mb-0">
                       <ul className="ps-0">
                         <li>
-                          <Image
+                        <Image
                             alt="icon"
                             src="/assets/img/icon/signIcon.png"
-                            width="16"
-                            height="16"
+                            width="30"
+                            height="30"
                           />
                         </li>
-                        <li>Branding And Design Identity</li>
+                        <li><strong>Real-time threat detection</strong> – Identifies and mitigates cyber threats as they occur</li>
                       </ul>
                       <ul className="ps-0">
                         <li>
-                          <Image
+                        <Image
                             alt="icon"
                             src="/assets/img/icon/signIcon.png"
-                            width="16"
-                            height="16"
+                            width="30"
+                            height="30"
                           />
                         </li>
-                        <li>Web site Marketing Solutions</li>
+                        <li><strong>Ransomware and malware prevention</strong> – Protects your systems from malicious
+                        software attacks</li>
                       </ul>
                       <ul className="ps-0">
                         <li>
-                          <Image
+                        <Image
                             alt="icon"
                             src="/assets/img/icon/signIcon.png"
-                            width="16"
-                            height="16"
+                            width="30"
+                            height="30"
                           />
                         </li>
-                        <li>unlimited Download Data</li>
+                        <li><strong>AI-driven attack mitigation</strong> – Uses artificial intelligence to predict and prevent cyber
+                        attacks</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Security awareness training for employees</strong> – Educates staff to recognize and avoid
+security risks. </li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Email Security & Anti-Phishing Protection</strong> – Prevents unauthorized access and
+                        phishing attempts via email. </li>
                       </ul>
                     </div>
                   </div>
-                  <div className="fancy-box d-flex justify-content-start justify-content-md-end">
-                    <div className="counter-box style1">
-                      <div className="counter-box_icon">
+                   
+                </div>
+                 
+              </div>
+            </div>
+          </div>
+          <span className="servicesspacer"></span>
+          <div id="network" className="container containerwrap">
+            <div className="about-wrapper style2">
+            <div
+                className="about-content wow fadeInLeft"
+                data-wow-delay="1s"
+              >
+                <div className="title-area">
+                  <h5 className="subtitle text-start">
+                  </h5>
+                  <h2 className="title text-start">
+                  Network Security & Protection
+                  </h2>
+                  <p className="text">
+                  Your network is your first line of defense. We offer: 
+                  </p>
+                </div>
+                <div className="fancy-box-wrapper">
+                  <div className="fancy-box">
+                    <div className="checklist mt-0 mb-0">
+                      <ul className="ps-0">
+                        <li>
                         <Image
-                          alt="icon"
-                          src="/assets/img/icon/aboutIcon1_1.png"
-                          width="52"
-                          height="52"
-                        />
-                      </div>
-                      <div className="counter-box_counter">
-                        <div>
-                          <span className="counter-number">6,561</span>
-                          <span className="plus">+</span>
-                        </div>
-                        <span>Satisfied Clients</span>
-                      </div>
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Intrusion detection and prevention</strong> – Identifies and blocks suspicious activities in realtime. </li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Secure VPN setup & maintenance</strong> – Ensures safe and encrypted remote access to your
+                        network.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Firewall management</strong> – Monitors and controls incoming and outgoing network traffic</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Continuous monitoring & vulnerability assessments</strong> – Regularly scans and addresses
+security weaknesses. </li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Secure Wi-Fi Solutions & Zero Trust Networking</strong> – Protects wireless networks and
+                        limits access based on strict verification. </li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+              <div
+                className="about-thumb-box wow fadeInUp"
+                data-wow-delay=".6s"
+              >
+                <div className="about-thumb-box about-thumb1">
+                  <Image
+                    alt="thumb"
+                  src="/assets/img/service/fee702c568.jpeg"
+                    width="682"
+                    height="561"
+                  />
+                </div>
+                <div className="about-thumb-box line jump" />
+              </div>
+              
+            </div>
+          </div>
+          <span className="servicesspacer"></span>
+          <div id="endpoint" className="container containerwrap">
+            <div className="about-wrapper style2">
+              <div
+                className="about-thumb-box wow fadeInUp"
+                data-wow-delay=".6s"
+              >
+                <div className="about-thumb-box about-thumb1">
+                  <Image
+                    alt="thumb"
+                  src="/assets/img/service/a9dc83f8ab.jpeg"
+                    width="682"
+                    height="561"
+                  />
+                </div>
+                <div className="about-thumb-box line jump" />
+              </div>
+              <div
+                className="about-content wow fadeInRight"
+                data-wow-delay="1s"
+              >
+                <div className="title-area">
+                  <h5 className="subtitle text-start">
+                  </h5>
+                  <h2 className="title text-start">
+                  Endpoint Protection & Device Security 
+                  </h2>
+                  <p className="text">
+                  Each device connected to your network is a potential risk. Our services include: 
+                  </p>
+                </div>
+                <div className="fancy-box-wrapper">
+                  <div className="fancy-box">
+                    <div className="checklist mt-0 mb-0">
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Advanced antivirus & anti-malware solutions</strong> – Provides real-time protection against
+viruses and malware.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Remote monitoring of all company devices</strong> – Tracks and manages security threats on
+all connected devices.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Automated security patch updates</strong> – Keeps software and systems updated with the
+latest security fixes.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Endpoint Detection & Response (EDR) Solutions</strong> – Identifies and responds to threats
+targeting endpoint devices.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Mobile Device Security & Management</strong> – Secures and manages mobile devices used in
+your business.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
+
                 <div className="profile-wrapper">
-                  <Link
-                    scroll={false}
-                    href={`/contact`}
-                    className="gt-btn gt-btn-icon"
-                  >
-                    EXPLORE MORE
-                  </Link>
-                  <div className="fancy-box style1">
-                    <div className="fancy-box_icon">
-                      <Image
-                        alt="img"
-                        src="/assets/img/about/aboutProfile1_1.png"
-                        width="56"
-                        height="56"
-                      />
-                    </div>
-                    <div className="fancy-box_content">
-                      <h4>Ronald Richards</h4>
-                      <span>Co, Founder</span>
-                    </div>
-                  </div>
+                 
+                  
                 </div>
               </div>
             </div>
           </div>
+          <span className="servicesspacer"></span>
+          <div id="backup" className="container containerwrap">
+            <div className="about-wrapper style2">
+            <div
+                className="about-content wow fadeInLeft"
+                data-wow-delay="1s"
+              >
+                <div className="title-area">
+                  <h5 className="subtitle text-start">
+                  </h5>
+                  <h2 className="title text-start">
+                  Backup & Disaster Recovery 
+                  </h2>
+                  <p className="text">
+                  Your data is your most valuable asset. We provide: 
+                  </p>
+                </div>
+                <div className="fancy-box-wrapper">
+                  <div className="fancy-box">
+                    <div className="checklist mt-0 mb-0">
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Cloud-based automated backups</strong> – Stores your critical data securely in the cloud with
+automatic backups.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Disaster recovery planning</strong> – Develops a plan to quickly restore operations in case of an
+emergency.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Rapid system restoration solutions</strong> – Ensures fast recovery of data and applications
+after disruptions.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Compliance-friendly backup solutions</strong> – Meets industry regulations for secure and
+compliant data storage.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Business Continuity & Ransomware Recovery Services</strong> – Helps your business
+maintain operations during cyber incidents.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="profile-wrapper">
+                
+                </div>
+              </div>
+              <div
+                className="about-thumb-box wow fadeInUp"
+                data-wow-delay=".6s"
+              >
+                <div className="about-thumb-box about-thumb1">
+                  <Image
+                    alt="thumb"
+                  src="/assets/img/service/baf5235c13.jpeg"
+                    width="682"
+                    height="561"
+                  />
+                </div>
+                <div className="about-thumb-box line jump" />
+              </div>
+              
+            </div>
+          </div>
+          <span className="servicesspacer"></span>
+          <div id="soc" className="container containerwrap">
+            <div className="about-wrapper style2">
+              <div
+                className="about-thumb-box wow fadeInUp"
+                data-wow-delay=".6s"
+              >
+                <div className="about-thumb-box about-thumb1">
+                  <Image
+                    alt="thumb"
+                  src="/assets/img/service/7fa50455ed.jpeg"
+                    width="682"
+                    height="561"
+                  />
+                </div>
+                <div className="about-thumb-box line jump" />
+              </div>
+              <div
+                className="about-content wow fadeInRight"
+                data-wow-delay="1s"
+              >
+                <div className="title-area">
+                  <h5 className="subtitle text-start">
+                  </h5>
+                  <h2 className="title text-start">
+                  SOC 2 Compliance Consulting 
+                  </h2>
+                  <p className="text">
+                  Compliance is critical for securing customer trust and meeting industry regulations. Our SOC 2
+compliance services include:
+                  </p>
+                </div>
+                <div className="fancy-box-wrapper">
+                  <div className="fancy-box">
+                    <div className="checklist mt-0 mb-0">
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Security & Risk Assessment</strong> – Evaluates and strengthens your organization's security
+posture.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Gap Analysis & Audit Preparation</strong> – Identifies compliance gaps and prepares your
+business for audits.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Policy & Procedure Documentation</strong> – Develops clear security policies and operational
+procedures.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Ongoing Compliance Monitoring & Support</strong> – Continuously assesses and updates
+compliance measures.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="profile-wrapper">
+                 
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <span className="servicesspacer"></span>
+          <div id="business" className="container containerwrap">
+            <div className="about-wrapper style2">
+            <div
+                className="about-content wow fadeInLeft"
+                data-wow-delay="1s"
+              >
+                <div className="title-area">
+                  <h5 className="subtitle text-start">
+                  </h5>
+                  <h2 className="title text-start">
+                  Business Continuity & Backup Recovery Planning 
+                  </h2>
+                  <p className="text">
+                  Unforeseen events can disrupt your business. We help ensure operational resilience with: 
+                  </p>
+                </div>
+                <div className="fancy-box-wrapper">
+                  <div className="fancy-box">
+                    <div className="checklist mt-0 mb-0">
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Business Continuity Strategy Development</strong> – Creates a roadmap to keep your business
+running during crises.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Disaster Recovery Plans Tailored to Your Business</strong> – Customizes recovery plans to fit
+your organization's needs.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Risk Assessments & Compliance Audits</strong> – Evaluates potential risks and ensures
+regulatory compliance.</li>
+                      </ul>
+                      <ul className="ps-0">
+                        <li>
+                        <Image
+                            alt="icon"
+                            src="/assets/img/icon/signIcon.png"
+                            width="30"
+                            height="30"
+                          />
+                        </li>
+                        <li><strong>Regular Backup Testing & Restoration Drills</strong> – Conducts routine tests to verify the
+effectiveness of backups and recovery processes.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                 
+              </div>
+              <div
+                className="about-thumb-box wow fadeInUp"
+                data-wow-delay=".6s"
+              >
+                <div className="about-thumb-box about-thumb1">
+                  <Image
+                    alt="thumb"
+                  src="/assets/img/service/1133d43bdc.jpeg"
+                    width="682"
+                    height="561"
+                  />
+                </div>
+                <div className="about-thumb-box line jump" />
+              </div>
+              
+            </div>
+          </div>
         </div>
+        
+        
       </section>{" "}
       <ModalVideo
         channel="youtube"

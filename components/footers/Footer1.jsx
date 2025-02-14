@@ -123,20 +123,15 @@ covered.
                       <li className="text-white">
                         <i className="fa-thin fa-envelope" />
                       </li>
-                      <li className="text-white">info@example.com</li>
+                      <li className="text-white">info@edgtek.com</li>
                     </ul>
                     <ul className="ps-0">
                       <li className="text-white">
                         <i className="fa-light fa-phone-volume" />
                       </li>
-                      <li className="text-white">+208-6666-0112</li>
+                      <li className="text-white">501.436.3301</li>
                     </ul>
-                    <ul className="ps-0">
-                      <li className="text-white"> 
-                        <i className="fa-light fa-map" />
-                      </li>
-                      <li className="text-white">4517 Washington ave.</li>
-                    </ul>
+                  
                     
                      
                   </div>

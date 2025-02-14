@@ -47,7 +47,7 @@ export default function Page() {
           </div>
         </div>
         <Contact />
-        <Map />
+        
         <Cta />
       </main>
       <Footer1 />

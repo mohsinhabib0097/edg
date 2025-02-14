@@ -1,6 +1,6 @@
 export const footerLinks = [
   { href: "/", text: "Home" },
-  { href: "/", text: "About Us" },
-  { href: "/", text: "Our Services" },
-  { href: "/", text: "Contact Us" },
+  { href: "/about", text: "About Us" },
+  { href: "/our-service", text: "Our Services" },
+  { href: "/contact", text: "Contact Us" },
 ];

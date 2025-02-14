@@ -95,20 +95,7 @@ export default function SiteMenu() {
         <div className="widget">
           <h3 className="widget_title">Get In Touch</h3>
           <div className="gt-widget-contact">
-            <div className="info-box_text">
-              <div className="icon">
-                <Image
-                  alt="img"
-                  src="/assets/img/icon/location-dot.svg"
-                  width="18"
-                  height="20"
-                />
-              </div>
-              <div className="details">
-                <p>789 Inner Lane, Holy park,</p>
-                <p>California, USA</p>
-              </div>
-            </div>
+           
             <div className="info-box_text">
               <div className="icon">
                 <Image
@@ -120,15 +107,11 @@ export default function SiteMenu() {
               </div>
               <div className="details">
                 <p>
-                  <a href="tel:+0123456789" className="info-box_link">
-                    +01 234 567 890
+                  <a href="tel:+501.436.3301" className="info-box_link">
+                  501.436.3301
                   </a>
                 </p>
-                <p>
-                  <a href="tel:+09876543210" className="info-box_link">
-                    +09 876 543 210
-                  </a>
-                </p>
+               
               </div>
             </div>
             <div className="info-box_text">
@@ -143,20 +126,13 @@ export default function SiteMenu() {
               <div className="details">
                 <p>
                   <a
-                    href="mailto:mailinfo00@techo.com"
+                    href="mailto:info@edgtek.com"
                     className="info-box_link"
                   >
-                    mailinfo00@techo.com
+                   info@edgtek.com
                   </a>
                 </p>
-                <p>
-                  <a
-                    href="mailto:support24@techo.com"
-                    className="info-box_link"
-                  >
-                    support24@techo.com
-                  </a>
-                </p>
+              
               </div>
             </div>
           </div>

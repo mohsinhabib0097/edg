@@ -239,3 +239,220 @@ Version: 1.0.0
     -webkit-border-radius:16px 16px; 
     border-radius:16px 16px; 
 }
+
+
+.about-wrapper.style2 .about-content .title-area .text {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+
+  /* Services Dropdown Styles */
+.services-dropdown {
+    position: relative;
+  }
+  
+  .services-grid-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    background: linear-gradient(90deg, #2065B0 0%, #16B252 123.82%);
+    // border-radius: 12px;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+    // padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+  .services-dropdown:hover .services-grid-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // gap: 0px;
+  }
+  
+  .service-item {
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .service-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .service-content h3 {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-content p {
+    color: #FFF;
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  
+  /* Ensure the dropdown is visible on mobile */
+  @media (max-width: 1200px) {
+    .services-grid-menu {
+      width: 90vw;
+    }
+    
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+  // .service-icon{
+  //   // background-color: var(--theme-color);
+  //   width: fit-content;
+  //   border-radius: 100px;
+  // }
+.icon-wrapper{
+      width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+// .service-icon{
+//   height: 18px;
+//   width: 18px;
+// }
+
+
+.icon-wrapper svg{
+  height: 18px;
+  width: 18px;
+}
+
+
+#link-wrap svg{
+  margin-right: 15px;
+}
+.gt-mobile-menu ul li ul li{
+  padding: 0px;
+}
+
+
+
+.mobileicons{
+  height: 18px;
+  width: 18px;
+}
+
+.mobile-menu-mh li span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.mobile-menu-mh .gt-mean-expand {
+display: none;
+}
+
+.gt-mobile-menu .sub-menu li a {
+  padding-left: 0; font-size: 15px;;
+}
+
+.mobile-menu-mh li svg {
+  color: #fff; margin-right: 0 !important;
+}
+
+.gt-mobile-menu ul li ul li {
+  float: left;
+  width: 100%;
+}
+.gt-mobile-menu > ul {
+  padding: 0 20px;
+}
+
+
+
+.about-wrapper.style2 .about-content .fancy-box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important; 
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  margin-bottom: 40px;
+}
+
+
+
+
+.about-thumb-box{
+  height: 100% !important;
+}
+
+.about-thumb-box img{
+ height: 100% !important;
+}
+
+
+
+.containerwrap{
+  margin-bottom: 50px;
+}
+
+
+
+.aboutbottomgap{
+  padding: 0 !important;
+  padding-top: 50px !important;
+}
+
+.service-dotted img {
+  width: 100%;
+}
+
+.ul-dooted {
+  list-style: disc;
+}
+.ul-dooted li {
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+.image-with-line img {
+  width: 100%;
+}
+
+.gt-widget-contact .info-box_text .details {
+  margin-top:0 !important;
+}
+
+.header-logo img {
+float: left;
+}

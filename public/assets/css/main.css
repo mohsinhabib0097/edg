@@ -7214,7 +7214,7 @@ textarea.is-invalid {
   filter: contrast(0) brightness(2) opacity(0.7);
 }
 .gt-widget-contact .info-box_text .details {
-  margin-top: -0.3em;
+  margin-top: 0;
 }
 .gt-widget-contact .info-box_text .details p {
   margin-bottom: 0;

@@ -73,7 +73,7 @@ export default function ServiceDetails({ serviceItem }) {
                       </div>
                       <h4>Need Help? Call Here</h4>
                       <h5>
-                        <a href="tel:+2085550112">+208-555-0112</a>
+                        <a href="tel:+2085550112">501.436.3301</a>
                       </h5>
                     </div>
                   </div>

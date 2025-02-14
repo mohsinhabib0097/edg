@@ -5,6 +5,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { Shield, Activity, Users2, Binary, Database, Network, Lock, Cloud, AlertCircle } from "lucide-react";
+import { Icon } from 'lucide-react';
+const iconMap = {
+  shield: Shield,
+  activity: Activity,
+  users: Users2,
+  binary: Binary,
+  database: Database,
+  network: Network,
+  lock: Lock,
+  cloud: Cloud,
+  "alert-circle": AlertCircle,
+};
+
 
 export default function MobileNav() {
   const [activeParent, setActiveParent] = useState(-1);
@@ -85,80 +99,78 @@ export default function MobileNav() {
           </Link>
         </div>
         <div className="gt-mobile-menu">
-          <ul>
-            {menuItems.map((item, index) => (
-              <li
-                key={index}
-                className={item.subMenu ? "menu-item-has-children" : ""}
-              >
-                <Link
-                  scroll={false}
-                  className={`${isMenuActive(item) ? "menuActive" : ""} `}
-                  href={item.href.includes("/") ? item.href : "#"}
-                  onClick={() =>
-                    setActiveParent((pre) => (pre == index ? -1 : index))
-                  }
-                >
-                  {item.title}
-                  <span className="gt-mean-expand"></span>
-                </Link>
-                {item.subMenu && (
-                  <ul
-                    className={`sub-menu ${
-                      index == activeParent ? "active" : ""
-                    } `}
-                  >
-                    {item.subMenu.map((subItem, subIndex) => (
-                      <li
-                        key={subIndex}
-                        className={
-                          subItem.subMenu ? "menu-item-has-children" : ""
-                        }
-                      >
-                        <Link
-                          scroll={false}
-                          className={`${
-                            isMenuActive(subItem) ? "menuActive" : ""
-                          }`}
-                          href={subItem.href.includes("/") ? subItem.href : "#"}
-                          onClick={() =>
-                            setActiveParent2((pre) =>
-                              pre == index ? -1 : index
-                            )
-                          }
-                        >
-                          {subItem.title}
-                        </Link>
-                        {subItem.subMenu && (
-                          <ul
-                            className={`sub-menu ${
-                              index == activeParent2 ? "active" : ""
-                            } `}
-                          >
-                            {subItem.subMenu.map((subSubItem, subSubIndex) => (
-                              <li key={subSubIndex}>
-                                <Link
-                                  scroll={false}
-                                  className={`${
-                                    isMenuActive(subSubItem) ? "menuActive" : ""
-                                  }`}
-                                  href={subSubItem.href}
-                                >
-                                  {subSubItem.title}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
+          
+        <ul className="mobile-menu-mh">
+  <li id="link-wrap" className="">
+  <Link className="menuActive" href="/">
+      Home
+      <span className="gt-mean-expand" />
+    </Link>
+  </li>
+  <li id="link-wrap" className="">
+    <Link className="" href="/about">
+      About Us
+      <span className="gt-mean-expand" />
+    </Link>
+  </li>
+  <li id="link-wrap" className="menu-item-has-children">
+    <Link className="" href="#">
+      Services
+      <span className="gt-mean-expand" />
+    </Link>
+    <ul className="sub-menu active">
+      <li className="">
+        <Link className="" href="/our-service/">
+        <span style={{ backgroundColor: "#FF5733"}}><Shield /></span>
+          Proactive Cyber Defense
+        </Link>
+      </li>
+      <li className="">
+        <Link className="" href="/our-service/">
+        <span style={{ backgroundColor: "#16A085"}}><Activity /></span>
+          Network Security &amp; Protection
+        </Link>
+      </li>
+      <li className="">
+        <Link className="" href="/our-service/#endpoint">
+        <span style={{ backgroundColor: "#E67E22"}}><Users2 /></span>
+          Endpoint Protection &amp; Device Security
+        </Link>
+      </li>
+      <li className="">
+        <Link className="" href="/our-service/">
+        <span style={{ backgroundColor: "#9B59B6"}}><Binary /></span>
+          Backup &amp; Disaster Recovery
+        </Link>
+      </li>
+      <li className="">
+        <Link className="" href="/our-service/">
+        <span style={{ backgroundColor: "#D35400"}}><Database /></span>
+          SOC 2 Compliance Consulting
+        </Link>
+      </li>
+      <li className="">
+        <Link className="" href="/our-service/">
+        <span style={{ backgroundColor: "#2980B9"}}><Network /></span>
+          Business Continuity &amp; Backup Recovery Planning
+        </Link>
+      </li>
+    </ul>
+  </li>
+  <li id="link-wrap" className="">
+    <Link className="" href="/contact">
+      Contact Us
+      <span className="gt-mean-expand" />
+    </Link>
+  </li>
+</ul>
+
+
+
         </div>
       </div>
+      
     </div>
+    
   );
 }
