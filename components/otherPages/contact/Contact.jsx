@@ -145,8 +145,8 @@ export default function Contact() {
                     </h5>
                     <h2 className="title mb-50">Ready to Get Started?</h2>
                    
-                  </div>
-                  <form className="contact-form-items" netlify> 
+                  </div>  
+                  <form className="contact-form-items" name="contact" method="POST" data-netlify="true"> 
                     <div className="row g-4">
                       <div
                         className="col-lg-6 wow fadeInUp"
@@ -214,6 +214,8 @@ export default function Contact() {
       <div style={{ marginBottom: "200px" }}>
          <TextSlider />  
         </div>
+
+         
 
       
     </>
