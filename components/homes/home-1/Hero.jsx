@@ -52,7 +52,7 @@ export default function Hero() {
                      
                       <Link
                         scroll={false}
-                        href={`/contact`}
+                        href={`/our-service`}
                         className="gt-btn gt-btn-icon"
                         data-ani="slideinup"
                         data-ani-delay="0.6s"
