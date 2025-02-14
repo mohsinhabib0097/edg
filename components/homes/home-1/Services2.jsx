@@ -63,14 +63,7 @@ export default function Services2() {
                   </Link>
                 </h3>
                 <p className="service-content_text">{service.description}</p>
-                <Link
-                  scroll={false}
-                  className="link"
-                  href={`/service-details/${service.id}`}
-                >
-                  Read More
-                  <i className="fa-sharp fa-light fa-arrow-right-long" />
-                </Link>
+                 
               </div>
               <div className="service-icon">
                 <Image src={service.icon} width={40} height={40} alt="icon" />

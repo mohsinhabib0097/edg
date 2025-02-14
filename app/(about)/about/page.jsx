@@ -15,7 +15,7 @@ export const metadata = {
 };
 export default function Page() {
   return ( 
-    <>
+    <> 
       <HeaderTop />
       <Header1 />
       <main className="main position-relative" id="mains">
@@ -53,7 +53,7 @@ export default function Page() {
       
         <AboutCta />
         <TextSlider />     
-        <Skills />
+       
         <div className="pb-300"></div>
 
         <Cta />

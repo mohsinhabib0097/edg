@@ -456,3 +456,14 @@ display: none;
 .header-logo img {
 float: left;
 }
+
+@media (min-width: 200px) and (max-width: 786px) {
+  .service-card-wrapper.style2 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .about-thumb-box.about-thumb1 div {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
