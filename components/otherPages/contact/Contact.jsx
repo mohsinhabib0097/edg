@@ -144,16 +144,9 @@ export default function Contact() {
                       </span>
                     </h5>
                     <h2 className="title mb-50">Ready to Get Started?</h2>
-                    <p>
-                      Nullam varius, erat quis iaculis dictum, eros urna varius
-                      eros, ut blandit felis odio in turpis. Quisque rhoncus,
-                      eros in auctor ultrices,
-                    </p>
+                   
                   </div>
-                  <form
-                     netlify
-                    className="contact-form-items"
-                  >
+                  <form className="contact-form-items" netlify> 
                     <div className="row g-4">
                       <div
                         className="col-lg-6 wow fadeInUp"
