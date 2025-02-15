@@ -68,26 +68,14 @@ export default function About() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">Who We Are</h2>
+                  <h2 className="title text-start">Our Mission & Values</h2>
                   <p className="text">
-                    <b>EDGTEK</b> protects businesses from cyber threats with
-                    expert security solutions. Whether you need{" "}
-                    <b>network protection, encrypted backups</b>, or an{" "}
-                    <b>extra security</b> layer, we’ve got you covered.
+                  EDGTEK was founded with a clear mission: to provide enterprise-level cybersecurity solutions to businesses of all sizes. With over two decades in IT, we have witnessed the rapid evolution of technology and the devastating impact of cybersecurity breaches. Our goal is to ensure that every business—whether high-security or low-demand—has the protection it needs to stay secure.
                   </p>
 
-                  <p className="text">
-                    If you have an IT technician, we’ll work alongside them to
-                    secure your systems. Nearly 50% of cyberattacks target small
-                    businesses, and 60% shut down within six months after a
-                    breach. We don’t want you to be a statistic.
-                  </p>
+                  <p className="text">At EDGTEK, trust is at the core of everything we do. We believe that cybersecurity requires more than just technology—it requires experts you can trust. Our team consists of dedicated tech professionals, not salespeople, who always act with your best interests in mind.</p>
 
-                  <p className="text">
-                    Need full network support? We provide end-to-end security to
-                    keep your business safe. Let us handle security so you can
-                    focus on growth.
-                  </p>
+                   
                 </div>
 
                 <div className="profile-wrapper">
@@ -149,19 +137,20 @@ export default function About() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">What We Do</h2>
+                  <h2 className="title text-start">Our Expertise & Commitment</h2>
                   <p className="text">
-                  Cybersecurity isn’t optional—it’s essential. <b>EDGTEK</b> provides <b>proactive, comprehensive</b>
-protection to keep your business secure and running smoothly. Cyber threats are constantly
-evolving, and a single breach can lead to downtime, financial loss, and reputational damage. 
+                  What sets EDGTEK apart is our commitment to providing the best security solutions without unnecessary upselling. We focus on honest, reliable service, ensuring that every client gets the protection they need.
                   </p>
 
                   <p className="text">
-                  We take a <b>strategic approach </b>to security, combining <b>advanced tools, industry expertise, and
-continuous monitoring</b> to detect and prevent threats before they disrupt your business. Whether
-you need to <b>fortify your network, secure your data</b>, or <b>enhance your existing IT defenses</b>, we
-deliver customized solutions to keep your business protected. 
+                  Our expertise lies in leveraging the best security tools available. We deploy cutting-edge software designed to detect and stop nearly all cyber threats. And for that rare 0.01% chance that an attack gets through, we implement encrypted backup solutions to guarantee data recovery and business continuity.
                   </p>
+
+                  <p className="text">
+                  Cyber threats are constantly evolving, and so are we. EDGTEK stays ahead by continuously refining our strategies, adopting the latest security technologies, and ensuring our clients remain protected in an ever-changing digital landscape.
+                  </p>
+
+                  
 
                  
                 </div>

@@ -45,7 +45,7 @@ export const menuItems = [
       },
       {
         title: "SOC 2 Compliance Consulting",
-        href: "/our-service/#soc",
+        href: "/our-service/",
         description: "Compliance is critical for securing customer trust and meeting industry regulations.",
         icon: "database",
         iconColor: "text-orange-400",

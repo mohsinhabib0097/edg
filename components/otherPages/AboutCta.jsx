@@ -38,11 +38,10 @@ export default function AboutCta() {
               className="title text-center text-white mb-20 wow fadeInUp"
               data-wow-delay=".6s"
             >
-              Our Mission 
+              Why Choose EDGTEK?
             </h2>
             <center>
-            <p style={{ color: "#fff" }}>To provide small and mid-sized businesses with enterprise-grade cybersecurity solutions without
-            the enterprise price tag. We believe that security should be simple, effective, and proactive. </p></center>
+            <p style={{ color: "#fff" }}>At EDGTEK, we understand that every business has unique security needs. That’s why we tailor our solutions to fit your specific requirements—whether you need a fully managed security service or just key protective measures. We are committed to delivering enterprise-level cybersecurity without the enterprise price tag. </p></center>
           </div>
           <div
             className="btn-wrapper d-flex justify-content-center mx-auto wow fadeInUp"
@@ -117,12 +116,10 @@ export default function AboutCta() {
                     </span>
                   </h5>
                   <h2 className="title text-start">
-                  Our Vision 
+                  Our Customer-First Approach
                   </h2>
                   <p className="text">
-                  We envision a world where businesses can operate without fear of cyber threats. By staying
-ahead of emerging risks and utilizing the latest cybersecurity innovations, we help companies
-navigate today’s digital landscape with confidence. 
+                  We believe that cybersecurity should be straightforward and accessible. Our team takes the time to educate and empower our clients, ensuring they understand their security posture. With EDGTEK, you get a partner who prioritizes your business’s safety over making a sale.
                   </p>
                 </div>
                
