@@ -467,3 +467,25 @@ float: left;
   }
 }
 
+
+
+.box-titles {
+  color: var(--theme-color) !important;
+}
+.about-me-pic  {
+  width: 100%;
+  float: left;
+} 
+
+.about-me-pic p {
+  width: 80%;
+  float: left;
+}
+.about-me-pic  img {
+  float: left;
+  width: 20%; 
+}
+.profile-wrapper {
+  float: left;
+  width: 100%;
+}

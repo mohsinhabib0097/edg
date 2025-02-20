@@ -68,12 +68,24 @@ export default function About() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">Our Mission & Values</h2>
+                  <h2 className="title text-start">About Me
+                  </h2>
                   <p className="text">
-                  EDGTEK was founded with a clear mission: to provide enterprise-level cybersecurity solutions to businesses of all sizes. With over two decades in IT, we have witnessed the rapid evolution of technology and the devastating impact of cybersecurity breaches. Our goal is to ensure that every business—whether high-security or low-demand—has the protection it needs to stay secure.
+                  With nearly 30 years in IT, I’ve seen how devastating security breaches can be for businesses in Arkansas. Before advanced cybersecurity solutions existed, I worked with companies that suffered system compromises. That experience drove me to stay ahead of evolving threats through continuous education and cutting-edge security strategies. Today, cyber threats are constant—every business needs the right protection.
                   </p>
 
-                  <p className="text">At EDGTEK, trust is at the core of everything we do. We believe that cybersecurity requires more than just technology—it requires experts you can trust. Our team consists of dedicated tech professionals, not salespeople, who always act with your best interests in mind.</p>
+                  <p className="text">At EDGTEK, we provide trustworthy, dependable, and affordable IT security for businesses of all sizes. Cybersecurity isn’t just IT support—it requires specialized protection. We work alongside your existing IT team to seamlessly enhance security without disruption.
+                  </p>
+                  <div className="about-me-pic">
+                  <p className="text">Our proactive approach identifies vulnerabilities before they become threats. Let us strengthen your defenses—because cyber threats evolve daily, and the best time to prepare is now.
+                  </p>
+                  <Image
+                        alt="icon"
+                        src="/assets/img/about-me.jpeg"
+                        width="190"
+                        height="190"
+                      />
+                  </div>
 
                    
                 </div>
