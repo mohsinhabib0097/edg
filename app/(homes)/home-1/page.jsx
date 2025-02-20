@@ -93,9 +93,9 @@ export default function Home1() {
 
 <ul className="ul-dooted">
 <li>SOC 2 Compliance Consulting</li>
-<li>ybersecurity Risk Assessments</li>
+<li>Cybersecurity Risk Assessments</li>
 <li>Vendor & Third-Party Security Evaluations</li>
-<li>ompliance & Regulatory Security Solutions</li>
+<li>Compliance & Regulatory Security Solutions</li>
 <li>Data Protection & Encryption Policies</li>
 </ul>
                  
