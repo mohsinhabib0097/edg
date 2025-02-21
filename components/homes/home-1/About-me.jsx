@@ -1,59 +1,16 @@
 "use client";
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
-import HeaderTop from "@/components/headers/HeaderTop";
- 
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import Image from "next/image";
-import Cta from "@/components/common/Cta";
-import About from "@/components/homes/home-1/About";
-import AboutCta from "@/components/otherPages/AboutCta";     
-import TextSlider from "@/components/homes/home-2/TextSlider";
-import Testimonials from "@/components/homes/home-2/Testimonials";
-import Skills from "@/components/homes/home-2/Skills";
+import { fancyBoxes } from "@/data/features";
 import Link from "next/link";
- 
-   
-export default function Page() {
+import Image from "next/image";
+import ModalVideo from "react-modal-video";
+import { useState } from "react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
+export default function AboutME() {
+  const [isOpen, setOpen] = useState(false);
   return ( 
-    <> 
-    <title>About || Expert Cybersecurity & Data Protection</title>
-      <HeaderTop />
-      <Header1 />
-      <main className="main position-relative" id="mains">
-        <div className="breadcrumb-wrapper">
-          <div
-            className="breadcumb"
-            data-bg-src=""
-            style={{ backgroundImage: "url(/assets/img/hero/breadcumbBg.png)" }}
-          >
-            <div className="container">
-              <div className="page-heading">
-                <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                  About Us
-                </h1>
-                <ul
-                  className="breadcrumb-items wow fadeInUp"
-                  data-wow-delay=".5s"
-                >
-                  <li>
-                    <Link scroll={false} href={`/`}>
-                      {" "}
-                      Home{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <i className="fas fa-chevrons-right" />
-                  </li>
-                  <li>About Us</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-      
-        <section className="about-area space fix position-reltive">
+    <>
+      <section className="about-area space fix position-reltive">
         <div className="about-wrap style1">
           <div className="shape1_1 d-xl-block d-none">
             <Image
@@ -111,22 +68,13 @@ export default function Page() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">About Me</h2>
+                  <h2 className="title text-start">Our Mission & Values</h2>
                   <p className="text">
-                  With nearly 30 years in IT, I’ve seen how devastating security breaches can be for businesses in Arkansas. Before advanced cybersecurity solutions existed, I worked with companies that suffered system compromises. That experience drove me to stay ahead of evolving threats through continuous education and cutting-edge security strategies. Today, cyber threats are constant—every business needs the right protection.
+                  EDGTEK was founded with a clear mission: to provide enterprise-level cybersecurity solutions to businesses of all sizes. With over two decades in IT, we have witnessed the rapid evolution of technology and the devastating impact of cybersecurity breaches. Our goal is to ensure that every business—whether high-security or low-demand—has the protection it needs to stay secure.
                   </p>
 
-                  <p className="text">At EDGTEK, we provide trustworthy, dependable, and affordable IT security for businesses of all sizes. Cybersecurity isn’t just IT support—it requires specialized protection. We work alongside your existing IT team to seamlessly enhance security without disruption.</p>
+                  <p className="text">At EDGTEK, trust is at the core of everything we do. We believe that cybersecurity requires more than just technology—it requires experts you can trust. Our team consists of dedicated tech professionals, not salespeople, who always act with your best interests in mind.</p>
 
-
-                  <div class="about-me-pic"><p class="text">Our proactive approach identifies vulnerabilities before they become threats. Let us strengthen your defenses—because cyber threats evolve daily, and the best time to prepare is now. <strong>- Kevin M Miller</strong></p> 
-                  <Image
-                        alt="icon"
-                        src="/assets/img/about-me.jpeg"
-                        width="28"
-                        height="12"
-                      />
-                  </div>
                    
                 </div>
 
@@ -179,6 +127,7 @@ export default function Page() {
                         height="12"
                       />
                     </span>{" "}
+                     
                     <span>
                       <Image
                         alt="icon"
@@ -200,7 +149,10 @@ export default function Page() {
                   <p className="text">
                   Cyber threats are constantly evolving, and so are we. EDGTEK stays ahead by continuously refining our strategies, adopting the latest security technologies, and ensuring our clients remain protected in an ever-changing digital landscape.
                   </p>
- 
+
+                  
+
+                 
                 </div>
 
                 <div className="profile-wrapper"></div>
@@ -225,16 +177,14 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section> 
-      
-        <AboutCta />
-        <TextSlider />     
-       
-        <div className="pb-300"></div>
-
-        <Cta />
-      </main>
-      <Footer1 />
+      </section>{" "}
+      <ModalVideo
+        channel="youtube"
+        youtube={{ mute: 0, autoplay: 0 }}
+        isOpen={isOpen}
+        videoId="f2Gzr8sAGB8"
+        onClose={() => setOpen(false)}
+      />
     </>
   );
 }
