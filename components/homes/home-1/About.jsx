@@ -1,6 +1,6 @@
 "use client";
 import { fancyBoxes } from "@/data/features";
-import Link from "next/link";
+import Link from "next/link"; 
 import Image from "next/image";
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
@@ -9,7 +9,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 export default function About() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <>
+    <> 
       <section className="about-area space fix position-reltive">
         <div className="about-wrap style1">
           <div className="shape1_1 d-xl-block d-none">
@@ -58,7 +58,7 @@ export default function About() {
                         height="12"
                       />
                     </span>{" "}
-                    About EDG TEK{" "}
+                  {" "}
                     <span>
                       <Image
                         alt="icon"
@@ -68,12 +68,19 @@ export default function About() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">Our Mission & Values</h2>
+                  <h2 className="title text-start">Who We Are</h2>
                   <p className="text">
-                  EDGTEK was founded with a clear mission: to provide enterprise-level cybersecurity solutions to businesses of all sizes. With over two decades in IT, we have witnessed the rapid evolution of technology and the devastating impact of cybersecurity breaches. Our goal is to ensure that every business—whether high-security or low-demand—has the protection it needs to stay secure.
+                  <strong>EDGTEK</strong> protects businesses from cyber threats with expert security solutions. Whether you
+need <strong>network protection</strong>, <strong>encrypted backups</strong>, or an <strong>extra security layer</strong>, we’ve got you
+covered. 
                   </p>
 
-                  <p className="text">At EDGTEK, trust is at the core of everything we do. We believe that cybersecurity requires more than just technology—it requires experts you can trust. Our team consists of dedicated tech professionals, not salespeople, who always act with your best interests in mind.</p>
+                  <p className="text">If you have an <strong> IT technician</strong>, we’ll work alongside them to secure your systems. <strong> Nearly 50% of
+cyberattacks target small businesses</strong>, and <strong>60% shut down within six months</strong> after a breach.
+We don’t want you to be a statistic. </p>
+
+<p className="text">Need full network support? We provide <strong>end-to-end security</strong>  to keep your business safe. Let us
+handle security so you can focus on growth. </p>
 
                    
                 </div>
@@ -137,22 +144,36 @@ export default function About() {
                       />
                     </span>
                   </h5>
-                  <h2 className="title text-start">Our Expertise & Commitment</h2>
+                  <h2 className="title text-start">What We Do </h2>
                   <p className="text">
-                  What sets EDGTEK apart is our commitment to providing the best security solutions without unnecessary upselling. We focus on honest, reliable service, ensuring that every client gets the protection they need.
+                  Cybersecurity isn’t optional—it’s essential. <strong> EDGTEK </strong> provides <strong> proactive </strong>,  <strong>comprehensive</strong>
+                  <strong>protection</strong> to keep your business secure and running smoothly. Cyber threats are constantly
+evolving, and a single breach can lead to downtime, financial loss, and reputational damage. 
                   </p>
 
                   <p className="text">
-                  Our expertise lies in leveraging the best security tools available. We deploy cutting-edge software designed to detect and stop nearly all cyber threats. And for that rare 0.01% chance that an attack gets through, we implement encrypted backup solutions to guarantee data recovery and business continuity.
+                  We take a <strong>strategic approach</strong>  to security, combining <strong>advanced tools, industry expertise, and
+continuous monitoring</strong> to detect and prevent threats before they disrupt your business. Whether
+you need to <strong> fortify your network, secure your data,</strong> or  <strong>enhance your existing IT defenses</strong>, we
+deliver customized solutions to keep your business protected. 
                   </p>
 
-                  <p className="text">
-                  Cyber threats are constantly evolving, and so are we. EDGTEK stays ahead by continuously refining our strategies, adopting the latest security technologies, and ensuring our clients remain protected in an ever-changing digital landscape.
-                  </p>
+                   
 
                   
 
                  
+                </div>
+
+                <div className="profile-wrapper">
+                  <Link
+                    scroll={false}
+                    href={`/contact`}
+                    className="gt-btn gt-btn-icon"
+                  >
+                    GET IN TOUCH
+                  </Link>
+                  <div className="fancy-box style1"></div>
                 </div>
 
                 <div className="profile-wrapper"></div>

@@ -457,6 +457,35 @@ display: none;
 float: left;
 }
 
+.right-image {
+  float: left;
+  width: 100%;
+}
+
+.right-image .text {
+  float: left;
+  width: 70%;
+}
+
+.right-image .imggg {
+  width: 30%;
+  float: left; position: relative;
+}
+.right-image .imggg:before {
+  content: "";
+  position: absolute;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, .6);
+  left: 5px;
+  right: 50%;
+  bottom: 8px;
+  height: 30%;
+  z-index: -1;
+  border-radius: inherit;
+  transform-origin: 0 0;
+  transform: skewY(-6deg);
+}
+
+
 @media (min-width: 200px) and (max-width: 786px) {
   .service-card-wrapper.style2 {
     grid-template-columns: repeat(1, 1fr) !important;

@@ -57,10 +57,10 @@ export default function Services2() {
                 />
               </div>
               <div className="service-content">
-                <h3 className="service-content_title box-titles">
-                 
+                <h3 className="service-content_title">
+                  <Link scroll={false} href={`/service-details/${service.id}`}>
                     {service.title}
-                 
+                  </Link>
                 </h3>
                 <p className="service-content_text">{service.description}</p>
                  
